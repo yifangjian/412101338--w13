@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yi-fang || ホーム</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+  <!--背景音樂-->
+  <div id="fullscreen" class="fullscreen">
+    <button class="start-button" onclick="startApp()"><i class="fa-regular fa-circle-play"></i></button>
+</div>
+
+  <audio id="backgroundMusic" loop autoplay>
+      <source src="./media/home_music.mp3" type="audio/mp3">
+      您的瀏覽器不支持音樂播放。
+  </audio>
+
+
+
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="./index.html">ホーム</a>
+          </li>
+          <li>
+            <a href="./personal/ex.html">ラーニング</a>
+        </li>
+        <li>
+            <a href="./learning/learning.html">エクスペリエンス</a>
+        </li>
+        <li>
+            <a href="./lyrics/ly.html">ソング</a>
+        </li>
+        </ul>
+        <button class="nav-btn" id="nav-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- sidebar -->
+    <div class="home-music"></div>
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+            <li>
+                <a href="./index.html">ホーム</a>
+              </li>
+              <li>
+                <a href="./personal/ex.html">ラーニング</a>
+            </li>
+            <li>
+                <a href="./learning/learning.html">エクスペリエンス</a>
+            </li>
+            <li>
+                <a href="./lyrics/ly.html">ソング</a>
+            </li>
+        </ul>
+        </ul>
+       
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+
+<!--bear-->
+<div class="bear">
+  <img src="./media/右下.gif" alt="">
+</div>
+
+    <!-- header -->
+    <header class="me">
+      <div class="section-center me-center">
+        <article class="me-info">
+          <div class="underline"></div>
+          <h1>私はカンです</h1>
+          <h4>現在、台湾の新北市にある淡江大学の日本語学科に在学しています。
+          </h4>
+          <button onclick="scrollToTarget()" class="btn">MORE</button>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.facebook.com/yifang.jian.90" class="social-icon">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/yfj0515/?hl=zh-tw" class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@hinase0515" class="social-icon">
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://linevoom.line.me/user/_dSE-OamANE8_QFUoxUDYH7150oeE6Q3f1iq-M7A?utm_medium=windows&utm_source=desktop&utm_campaign=Profile" class="social-icon">
+                <i class="fa-brands fa-line"></i>
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="me-img">
+          <img
+            src="./media/my_photo.jpg"
+            alt=""
+            class="me-photo"
+          />
+        </article>
+      </div>
+    </header>
+
+    <!-- end of header -->
+
+    <!--about-->
+    <section class="section about" id="about-section">
+      <div class="section-center about-center">
+        <!--about img-->
+        <article class="about-img">
+          <img src="./media/about_me.jpg" class="about-photo" alt="about img">
+        </article>
+        <!--about info-->
+        <article class="about-info">
+          <!--section title-->
+          <div class="section-title about-title">
+            <h2>私について</h2>
+            <div class="underline"></div>
+          </div>
+          <!--end of section title-->
+          <p>簡宜芳と申します。<br>
+            台湾の桃園出身です。<br>
+            今年で21歳になり、現在は新北市にある淡江大学の日本語学科の学生として勉強しています。<br>
+            私は性格が明るく、いつも元気で朗らかです。<br>
+            また、強い責任感と適応能力を持っていると自負しています。<br>
+            趣味は音楽を聴くことや歌を歌うことで、暇な時にはよく小説を読んでいます。<br>
+            日本語の学習だけでなく、日本の文化にも深い興味を持っており、将来は日本語に関連する仕事に就きたいと考えています。<br>
+            どうぞ よろしくお願い致します。</p>
+          <a href="about.html" class="btn">about me</a>
+        </article>
+      </div>
+    </section>
+    <!--end of about-->
+
+    <!-- projects-->  
+    <section class="section projects">
+      <div class="section-title">
+        <h2>ビデオ</h2>
+        <div class="underline"></div>
+        <p class="projects-text">
+        </p>
+      </div>
+
+      <div class="section-center projects-center">
+        <a href="/learning/learning.html" class="project-1">
+          <article class="project">
+            <video autoplay muted src="./media/video1.MOV" class="project-img"></video>
+            <div class="project-info">
+              <h4></h4>
+              <p>歌唱コンテスト</p>
+            <div>
+          </div>
+          </article>
+        </a>
+
+        <a href="/learning/learning.html" class="project-2">
+          <article class="project">
+            <video autoplay muted src="./media/video2.mp4" class="project-img"></video>
+            <div class="project-info">
+              <h4></h4>
+              <p>マイ・デザイン</p>
+              <div>
+            </div>
+          </article>
+        </a>
+
+        <a href="/learning/learning.html" class="project-3">
+        <article class="project">
+          <video autoplay muted src="./media/video3.mp4" class="project-img"></video>
+          <div class="project-info">
+            <h4></h4>
+            <p>SDGs</p>
+            <div>
+          </div>
+        </article>
+        </a>
+
+        <a href="/learning/learning.html" class="project-4">
+          <article class="project">
+            <video autoplay muted src="./media/video4.mp4" class="project-img"></video>
+            <div class="project-info">
+              <h4></h4>
+              <p>他の経験</p>
+              <div>
+            </div>
+          </article>
+          </a>
+      </div>
+    </section>
+    <!--end of projects-->
+
+  
+    <!--gallery-->
+    <section class="gallery">
+        <div class="section-title" id="gallery-title">
+            <h2>フォトライブラリー</h2>
+            <div class="underline" id="gallery-underline"></div>
+            <p class="projects-text" id="gallery-title">
+              毎日楽しく過ごせるように！
+            </p>
+          </div>
+      <div class="images">
+        <span style="--i:1">
+          <img src="./media/gallery1.jpg" alt="" />
+        </span>
+        <span style="--i:2">
+          <img src="./media/gallery2.jpg" alt="" >
+        </span>
+        <span style="--i:3">
+          <img src="./media/gallery3.JPG" alt="" />
+        </span>
+        <span style="--i:4">
+          <img src="./media/gallery4.jpg" alt="" />
+        </span>
+        <span style="--i:5">
+          <img src="./media/gallery5.jpg" alt="" />
+        </span>
+        <span style="--i:6">
+          <img src="./media/gallery6.jpg" alt="" />
+        </span>
+        <span style="--i:7">
+          <img src="./media/gallery7.jpg" alt="" />
+        </span>
+        <span style="--i:8">
+          <img src="./media/gallery8.jpg" alt="" />
+        </span>
+      </div>
+    </section>
+    
+    <!--end of gallery-->
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>&copy; <span id="date"></span> Yi-fang Jian . </p>
+    </footer>
+    <!-- end of footer -->
+   
+    <script src="./script.js"></script>
+    
+  </body>
+</html>

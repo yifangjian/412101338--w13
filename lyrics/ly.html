@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yi-fang ||ソング</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+
+  <!--背景音樂-->
+
+  <audio id="backgroundMusic" loop autoplay volume="0.1">
+      <source src="#" type="audio/mp3">
+      您的瀏覽器不支持音樂播放。
+  </audio>
+
+
+
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="/index.html">ホーム</a>
+          </li>
+          <li>
+            <a href="/personal/ex.html">ラーニング</a>
+        </li>
+        <li>
+            <a href="/learning/learning.html">エクスペリエンス</a>
+        </li>
+        <li>
+            <a href="/lyrics/ly.html">ソング</a>
+        </li>
+        </ul>
+        <button class="nav-btn" id="nav-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li>
+            <a href="/index.html">ホーム</a>
+          </li>
+          <li>
+            <a href="/personal/ex.html">ラーニング</a>
+        </li>
+        <li>
+            <a href="/learning/learning.html">エクスペリエンス</a>
+        </li>
+        <li>
+            <a href="/lyrics/ly.html">ソング</a>
+        </li>
+        </ul>
+        </ul>
+        
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+
+   
+
+<!--bear-->
+<div class="bear">
+  <img src="/media/左下3.gif" alt="">
+</div>
+
+<!--song-->
+<section class="resume" id="target-section">
+  <div class="container" >
+    <h1>眼淚記得你</h1>
+    <audio id="five" src="/media/孫盛希_眼淚記得你_歌詞版拷貝.mp3" controls></audio>
+    <div class="contain">
+      <ul class="lrc-list"></ul>
+    </div>
+    </div>
+  </section>
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>&copy; <span id="date"></span> Yi-fang Jian . </p>
+    </footer>
+    <!-- end of footer -->
+   
+    <script src="/script.js"></script>
+   
+  </body>
+</html>
