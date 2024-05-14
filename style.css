@@ -378,7 +378,7 @@ me
   background-color: var(--clr-primary-8);
 }
 .me-center {
-  animation: fadeIn 5s ease-in-out;
+  animation: fadeIn 3s ease-in-out;
   height: calc(100vh - 4rem);
   display: grid;
   place-items: center;
