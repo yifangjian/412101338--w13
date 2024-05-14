@@ -177,6 +177,11 @@ p {
   margin-top: 5rem;
 }
 
+#footer-icon{
+ margin-top: auto;
+  margin-bottom: 1rem;
+}
+
 .social-icons :hover {
   color: var(--clr-grey-5);
 }
